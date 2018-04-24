@@ -100,8 +100,6 @@ public class FirstSceneControl : MonoBehaviour, ISceneControl, IUserAction
 
     public void GameOver()
     {
-        GUI.color = Color.red;
-        GUI.Label(new Rect(700, 300, 400, 400), "游戏结束");
     }
 
     public void setGameState(GameState newState)
